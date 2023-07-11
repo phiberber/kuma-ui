@@ -11,6 +11,7 @@ export const Hero = () => {
             position="fixed"
             inset={["0px", "100px"]}
             zIndex="-1"
+            opacity={0.1}
           />
         </Box>
         <Heading
@@ -27,7 +28,7 @@ export const Hero = () => {
           Empower Your Web with Ultimate Performance and Flexibility
         </Heading>
         <Text
-          color="#718096"
+          color="#91959b"
           mt="1.5rem"
           fontSize="1.125rem"
           className={css`
@@ -84,7 +85,7 @@ export const Hero = () => {
                 display="flex"
                 alignItems="center"
                 justify="center"
-                bg="#f6f6f7"
+                bg="#f6f6f711"
                 borderRadius="6px"
                 mb="0.75rem"
               >
@@ -106,6 +107,7 @@ export const Hero = () => {
                   font-size: 1rem;
                   line-height: 1.5rem;
                 `}
+                color='#91959b'
               >
                 {data.description}
               </Text>
